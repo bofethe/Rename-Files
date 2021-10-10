@@ -1,2 +1,4 @@
 # Rename-Files
-Batch rename files within the same directory
+Interactive and iteriative batch tool to rename all files within the same directory.
+
+Operations include adding a prefix, adding a suffix, or replacing a given text.
