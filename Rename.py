@@ -85,7 +85,7 @@ def replaceText():
 def funCall():
 
     # Pick the directory
-    folder = input('Enter folder name with the files: ')
+    folder = input('Enter the path to the folder with the files to be renamed: ')
     path = os.path.normcase(folder)
     os.chdir(path)
     
@@ -114,4 +114,4 @@ def funCall():
 
 funCall()
 
-input('\nPress any key to close window')
+input('\nPress any key to close the window')
